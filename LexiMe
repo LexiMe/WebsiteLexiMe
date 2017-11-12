@@ -1,0 +1,67 @@
+body {
+    background-color: white;
+  
+}
+* {
+    box-sizing: border-box;
+}
+
+h1{
+  color: orange;
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+  
+}
+
+heading {
+    color: black;
+    margin-left: 10px;
+}
+p {
+  font-family: Arial;
+min-width: 300px;
+    min-width: 600px;
+    min-height: 150px;
+    max-height; 300px;
+    overflow: scroll;
+}
+
+
+
+.title {
+  color: orange;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.caption {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+  background-color: white;
+  color: black;
+}
+
+#article-title {
+  font-family: cursive;
+text-transform: capitalize;
+  
+}
+
+.destination h2 {
+  font-family: cursive;
+}
+.description h5 {
+  color: teal;
+}
+
+.main-banner {background-image: url(EdibliciousHeader.jpg);}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./LexiMe.css" type="text/css" rel="stylesheet">
+        <meta charset="utf-8">
+        <div>
+            <div id="LexiMe.css">
+            <a href="https://en.wikipedia.org/wiki/Parenting" target="_blank"><img src="LexiMe.jpg" alt="LexiBen"></a>
+        </div>
+
+        <style>
+            div {
+                border: 1px white;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-right: 10px;
+                margin-left: 10px;
+                background-color: white;
+            }
+        </style>
+        <style>
+            img { 
+                width:100%; 
+            }
+        </style>
+
+        </div>
+        
+        <script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+</script>
+    </head> 
+    <body>
+        
+        <nav>
+      
+            <div id="Structure">
+                <a href="./About.html" target="_blank">About</a>
+                <a href="LexiMe.html" target="_blank">Home</a>
+                <a href="Galleries.html" target="_blank">Galleries</a>
+                <a href="Contact.html" target="_blank">Contact</a>
+
+
+            </div>
+        </nav>
+        <div id="media">
+            <!--<h2>Media</h2>-->
+
+            <video src="IMG_6328.mov" width="1000" height = "1000" controls></video>
+
+        </div>
+
+        <form name="myForm" action="/action_page_post.php"
+onsubmit="return validateForm()" method="post">
+Name: <input type="text" name="fname">
+<input type="submit" value="Submit">
+</form>
+    </body>
+
+
+
+
+
+</html>
